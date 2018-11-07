@@ -1,0 +1,119 @@
+// Place all the styles related to the Google controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#header
+{
+
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+	padding-top: 20px;
+	font-size: 15px;
+	justify-content: row;
+}
+#header2
+{
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+#header1
+{
+	padding-top: 10px;
+}
+
+#center
+{
+	text-align: -webkit-center;
+	padding-bottom: 100px;
+
+
+}
+#header2 img
+{
+	padding-right: 10px;
+}
+
+#container
+{
+display: flex;
+height: 100%;
+flex-direction: column;
+justify-content: space-between;
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html, body
+{
+
+	height: 100%;
+}
+.buttons
+{
+	height: 30px;
+	font-size: 15px;
+	width: 170px;
+	color: rgb(117, 117, 117);
+	border: 0px;
+	background-color: rgb(242,242,242);
+}
+#logo img
+{
+	height: auto;
+	width: 330px;
+	padding-bottom: 25px;
+}
+#navbar
+{
+	padding-bottom: 25px;
+}
+#navbar input
+{
+	width: 550px;
+	height: 30px;
+	
+}
+#button1
+{
+	background-color: rgb(65, 134, 229);
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	padding-top: 0;
+	font-size: 12px;
+	border: 0px;
+
+}
+a
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: rgb(102, 102, 106);
+}
+a:hover
+{
+text-decoration: underline;
+}
+#footerright
+{
+	display: flex;
+	margin-left: auto;
+	padding-right: 25px;
+}
+#footer
+{
+
+	margin: 0px;
+	font-size: 15px;
+	padding-left: 25px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 16px;
+	background-color: rgb(242, 242, 242);
+	padding-top: 16px;
+
+}
